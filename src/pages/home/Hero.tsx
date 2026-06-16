@@ -12,8 +12,8 @@ console.log("redux-gotten-user", user)
   return (
     <div className="text-[15px] p-5">
 
-      Welcome Back
-      {/* Welcome <b> {user.email.toUpperCase()}</b> */}
+    
+      Welcome <b> {user.email.toUpperCase()}</b>
       </div>
   )
 }
